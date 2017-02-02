@@ -13,7 +13,7 @@ app.set('view engine', 'html');
 
 // Routing
 app.get('/', function (req, res) {
-  res.render('view');
+  res.render('home');
 })
 
 app.get('/view1', function (req, res) {
