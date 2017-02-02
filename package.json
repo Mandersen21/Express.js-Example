@@ -11,7 +11,7 @@
   },
   "main": "index",
   "scripts": {
-    "start": "node ./src/app.js",
+    "start": "node app.js",
     "test": "make lint && make test"
   }
 }
