@@ -1,0 +1,16 @@
+{
+  "name": "express.js-example",
+  "version": "1.0.0",
+  "description": "ExpressJS with responsive pages written in html and css.",
+  "repository": "",
+  "homepage": "",
+  "author": "",
+  "dependencies": {
+    "express": "^4.14.1"
+  },
+  "main": "index",
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "make lint && make test"
+  }
+}
