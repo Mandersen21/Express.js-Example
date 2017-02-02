@@ -3,7 +3,7 @@ var path = require('path');
 var cons = require('consolidate');
 var app = express();
 
-app.use(express.static('public'));
+app.use(express.static('assets'));
 
 // view engine setup
 app.engine('html', cons.swig)
