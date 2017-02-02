@@ -6,11 +6,9 @@
   "homepage": "",
   "author": "",
   "dependencies": {
-    "consolidate": "^0.14.5",
     "ejs": "^2.5.5",
     "express": "^4.14.1",
-    "path": "^0.12.7",
-    "swig": "^1.4.2"
+    "path": "^0.12.7"   
   },
   "main": "index",
   "scripts": {

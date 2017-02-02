@@ -1,6 +1,5 @@
 var express = require('express');
 var path = require('path');
-var cons = require('consolidate');
 var app = express();
 
 // Load static assets file
