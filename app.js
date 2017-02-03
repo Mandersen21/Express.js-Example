@@ -15,28 +15,8 @@ app.get('/', function (req, res) {
   res.render('home');
 })
 
-app.get('/view1', function (req, res) {
-  res.render('view1');
-})
-
-app.get('/view2', function (req, res) {
-  res.render('view2');
-})
-
-app.get('/view3', function (req, res) {
-  res.render('view3');
-})
-
-app.get('/view4', function (req, res) {
-  res.render('view4');
-})
-
-app.get('/view5', function (req, res) {
-  res.render('view5');
-})
-
-app.get('/view6', function (req, res) {
-  res.render('view6');
+app.get('/about', function (req, res) {
+  res.render('about');
 })
 
 // Start service

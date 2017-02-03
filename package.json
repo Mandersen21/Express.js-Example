@@ -8,11 +8,18 @@
   "dependencies": {
     "ejs": "^2.5.5",
     "express": "^4.14.1",
-    "path": "^0.12.7"   
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7"
   },
   "main": "index",
   "scripts": {
     "start": "node app.js",
-    "test": "make lint && make test"
+    "run": "nodemon app.js"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-notify": "^3.0.0"
   }
 }
