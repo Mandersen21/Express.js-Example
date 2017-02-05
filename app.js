@@ -3,11 +3,11 @@ var path = require('path');
 var app = express();
 
 // Load static assets file
-app.use(express.static('assets'));
+app.use(express.static('src'));
 
 // View engine
 app.engine('.html', require('ejs').__express);
-app.set('views', __dirname + '/views');
+app.set('views', __dirname + '/src/views');
 app.set('view engine', 'html');
 
 // Routing
